@@ -13,7 +13,8 @@ adapted from https://github.com/html5bizj/x-business-card
 ![Alt text](img/heraspace_business_card_back.png?raw=true "HeraSpace business card_back")
 
 <hr>
-## inspired from
+
+## inspired by
 [mitsuruog](https://github.com/mitsuruog)
 [html5jエンタープライズ部](http://www.html5biz.org/)
 
