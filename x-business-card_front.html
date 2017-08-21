@@ -1,157 +1,157 @@
 <template>
-
-  <style>
-    :host {
-      display: inline-block;
-    }
-    
-    /* module
-    ================================== */
-    .me {
-        font-family: 'Helvetica', Arial, sans-serif;
-        font-weight: 100;
-    
-        position: relative;
-    
-        display: inline-block;
-        overflow: hidden;
-    
-        width: 265px;
-        height: 310px;
-    
-        text-align: center;
-    
-        color: #7782bf;
-        border-radius: 6px;
-        background-color: #2e353c;
-    }
-    .me dt {
-      display: none;
-    }
-    .me dd,
-    .me dl {
-      margin: 0;
-    }
-    
-    /* sub module
-    ================================== */
-    .me-profile {
-        height: 80px;
-    
-        border: 1px solid #d5d5d5;
-        border-bottom: 1;
-        background: #7782bf;
-    }
-    
-    dd.me-image {
-        display: inline-block;
-    
-        margin: 20px 0 10px;
-    }
-    .me-image img {
-        width: 120px;
-        height: 120px;
-    
-        vertical-align: middle;
-    
-        border: 3px solid #d5d5d5;
-        border-radius: 100%;
-        background: #fff;
-    }
-    
-    .me-company {
-        font-size: 18px;
-    }
-    
-    .me-name {
-        font-size: 24px;
-    }
-    
-    .me-contact {
-        position: relative;
-        top: 19px;
-    
-        padding: 10px;
-    
-        color: gray;
-        border-top: 1px solid #999;
-    }
-    a.me-contact-url {
-        text-decoration: none;
-    }
-    
-    /* thema
-    ================================== */
-    :host(.enpura) .me {
-        color: #7782bf;
-        background-image: url("img/heraspace-business-card_bg_white.png");
-    }
-    
-    :host(.enpura) .me-profile {
-        border: 1px solid #fff;
-        background: #7782bf;
-    }
-    
-    :host(.enpura) .me-image img {
-        border: 3px solid #d8dbe7;
-    }
-    
-    :host(.enpura) .me-title,
-    :host(.enpura) .me-company,
-    :host(.enpura) .me-tel,
-    :host(.enpura) .me-contact {
-        color: #7782bf;
-    }
-    
-    :host(.enpura) .me-tel {
-        border-top: 0.5px solid #7782bf;
-    }
-    
-    :host(.enpura) .me-contact {
-        border-top: 0px solid #7782bf;
-    }
-    
-    /* animation
-    ================================== */
-    :host(:active) {
-      position: relative;
-      top: 7px;
-      left: 7px;
-    }
-
-  </style>
-
-  <article class="me">
-    <dl class="me-profile">
-    
-      <dt></dt>
-      <dd class="me-image">
-        <img src=""></img>
-      </dd>
-
-      <dt>HeraSpace</dt>
-      <dd class="me-company"></dd>
-
-      <dt>Isaac Durá</dt>
-      <dd class="me-name"></dd>
-
-      <dt>Entrepreneur, Backend Developer</dt>
-      <dd class="me-title"></dd>
-
-      <dt>(0049) 15225337988</dt>
-      <dd class="me-tel"></dd>
-
-      <dt>heraspace.com</dt>
-      <a href="https://heraspace.com" class="me-contact-url">
-        <dd class="me-contact"></dd>
-      </a>
-
-      <br>
-      
-    </dl>
-  </article>
-  
-</template>
+        
+          <style>
+            :host {
+              display: inline-block;
+            }
+            
+            /* module
+            ================================== */
+            .me {
+                font-family: 'Helvetica', Arial, sans-serif;
+                font-weight: 100;
+            
+                position: relative;
+            
+                display: inline-block;
+                overflow: hidden;
+            
+                width: 265px;
+                height: 310px;
+            
+                text-align: center;
+            
+                color: #7782bf;
+                border-radius: 6px;
+                background-color: #2e353c;
+            }
+            .me dt {
+              display: none;
+            }
+            .me dd,
+            .me dl {
+              margin: 0;
+            }
+            
+            /* sub module
+            ================================== */
+            .me-profile {
+                height: 80px;
+            
+                border: 1px solid #d5d5d5;
+                border-bottom: 1;
+                background: #7782bf;
+            }
+            
+            dd.me-image {
+                display: inline-block;
+            
+                margin: 20px 0 10px;
+            }
+            .me-image img {
+                width: 120px;
+                height: 120px;
+            
+                vertical-align: middle;
+            
+                border: 3px solid #d5d5d5;
+                border-radius: 100%;
+                background: #fff;
+            }
+            
+            .me-company {
+                font-size: 18px;
+            }
+            
+            .me-name {
+                font-size: 24px;
+            }
+            
+            .me-contact {
+                position: relative;
+                top: 19px;
+            
+                padding: 10px;
+            
+                color: gray;
+                border-top: 1px solid #999;
+            }
+            a.me-contact-url {
+                text-decoration: none;
+            }
+            
+            /* thema
+            ================================== */
+            :host(.enpura) .me {
+                color: #7782bf;
+                background-image: url("img/heraspace-business-card_bg_white.png");
+            }
+            
+            :host(.enpura) .me-profile {
+                border: 1px solid #fff;
+                background: #7782bf;
+            }
+            
+            :host(.enpura) .me-image img {
+                border: 3px solid #d8dbe7;
+            }
+            
+            :host(.enpura) .me-title,
+            :host(.enpura) .me-company,
+            :host(.enpura) .me-tel,
+            :host(.enpura) .me-contact {
+                color: #7782bf;
+            }
+            
+            :host(.enpura) .me-tel {
+                border-top: 0.5px solid #7782bf;
+            }
+            
+            :host(.enpura) .me-contact {
+                border-top: 0px solid #7782bf;
+            }
+            
+            /* animation
+            ================================== */
+            :host(:active) {
+              position: relative;
+              top: 7px;
+              left: 7px;
+            }
+        
+          </style>
+        
+          <article class="me">
+            <dl class="me-profile">
+            
+              <dt></dt>
+              <dd class="me-image">
+                <img src=""></img>
+              </dd>
+        
+              <dt>HeraSpace</dt>
+              <dd class="me-company"></dd>
+        
+              <dt>Isaac Durá</dt>
+              <dd class="me-name"></dd>
+        
+              <dt>Entrepreneur, Backend Developer</dt>
+              <dd class="me-title"></dd>
+        
+              <!--<dt>(0049) 15225337988</dt>-->
+              <dd class="me-tel"></dd>
+        
+              <dt>heraspace.com</dt>
+              <a href="https://heraspace.com" class="me-contact-url">
+                <dd class="me-contact"></dd>
+              </a>
+        
+              <br>
+              
+            </dl>
+          </article>
+          
+        </template>
 
 <script>
     (function(window, document) {
@@ -172,7 +172,7 @@
             company: "HeraSpace",
             title: "Entrepreneur, Backend Developer",
             contact: "info@heraspace.com",
-            tel: "(0049) 15225337988",
+            tel: "",
             contactUrl: "heraspace.com"
         };
 
